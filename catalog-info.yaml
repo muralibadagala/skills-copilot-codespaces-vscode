@@ -1,10 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-plugin-catalog-import
-  title: '@backstage/plugin-catalog-import'
-  description: A Backstage plugin the helps you import entities into your catalog
+  name: test-app
+  annotations:
+    github.com/project-slug: muralibadagala/skills-copilot-codespaces-vscode
+  description: Sample Application to Test BackStage.io
+  tags:
+    - github
+    - backstage
 spec:
+  type: Application
   lifecycle: experimental
-  type: backstage-frontend-plugin
-  owner: murali
+  owner: Murali Mohan
